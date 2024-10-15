@@ -22,34 +22,34 @@
 
 // Ex 3
 
-// let login = prompt("Enter login");
-// let password;
-// console.log(login);
+let login = prompt("Enter login");
+let password;
+console.log(login);
 
-// if (login === "admin") {
-//   password = prompt("Enter password");
+if (login === "admin") {
+  password = prompt("Enter password");
 
-//   if (!password) {
-//     console.log("Denied ;-(");
-//   } else if (password === "qwerty") {
-//     console.log("Hello, Ilya :-)");
-//   } else {
-//     console.log("Wrong password ;-(");
-//   }
-// } else {
-//   console.log("I dont know you ;-(");
-// }
+  if (!password) {
+    console.log("Denied ;-(");
+  } else if (password === "qwerty") {
+    console.log("Hello, Ilya :-)");
+  } else {
+    console.log("Wrong password ;-(");
+  }
+} else {
+  console.log("I dont know you ;-(");
+}
 
 // Ex 4
 
-const daysUmtilDeadline = 2;
+// const daysUmtilDeadline = 2;
 
-if (daysUmtilDeadline === 0) {
-  console.log("Today");
-} else if (daysUmtilDeadline === 1) {
-  console.log("1 day left");
-} else if (daysUmtilDeadline === 2) {
-  console.log("2 days left");
-} else if (daysUmtilDeadline >= 3) {
-  console.log("Some times");
-}
+// if (daysUmtilDeadline === 0) {
+//   console.log("Today");
+// } else if (daysUmtilDeadline === 1) {
+//   console.log("1 day left");
+// } else if (daysUmtilDeadline === 2) {
+//   console.log("2 days left");
+// } else if (daysUmtilDeadline >= 3) {
+//   console.log("Some times");
+// }
